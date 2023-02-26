@@ -247,194 +247,157 @@
                         </div>
                     </aside>
                     <section class="main-content">
-                        <h2 class="title">New assets page</h2>
-                        <div class="works">
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
-                                    </div>
-                                </div>
+                        <div class="profile">
+                            <div class="profile-nav">
+                                <nav>
+                                    <ul>
+                                        <li class="active" data-tab-target="#tabs1">
+                                            <div class="profile-nav__icon profile-nav__icon_user"></div>
+                                            <span class="profile-nav__text">My profile</span>
+                                        </li>
+                                        <li data-tab-target="#tabs2">
+                                            <div class="profile-nav__icon profile-nav__icon_card"></div>
+                                            <span class="profile-nav__text">Payment pending</span>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </div>
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
+                            <div class="profile__content">
+                                <div id="tabs1" class="profile__item active" data-tab-content="tabs1">
+                                    <div class="profile-panel">
+                                        <div class="profile-panel__photo">
+                                            <img src="img/src/user.jpg" alt="photo">
+                                        </div>
+                                        <div class="profile-panel__description">
+                                            <span class="profile-panel__name">Profile Picture</span>
+                                            <div class="profile-panel__btns">
+                                                <a href="#" class="btn btn_violet-color">Replace image</a>
+                                                <a href="#" class="btn btn_violet-color">Delete image</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
+                                    <h2 class="md-title">My profile</h2>
+                                    <div class="profile-form">
+                                        <form>
+                                            <fieldset>
+                                                <ul class="profile-form__list">
+                                                    <li>
+                                                        <label for="name">Full name</label>
+                                                        <input id="name" type="text" name="name" placeholder="Enter your full name">
+                                                    </li>
+                                                    <li>
+                                                        <label for="email">Email Address</label>
+                                                        <input id="email" type="email" name="email" placeholder="Enter email address">
+                                                    </li>
+                                                    <li>
+                                                        <label for="password">Password</label>
+                                                        <input id="password" type="password" name="password" placeholder="Enter password">
+                                                    </li>
+                                                </ul>
+                                            </fieldset>
+                                            <fieldset>
+                                                <button class="btn btn_big-size btn__blue-color" type="submit">Set new password</button>
+                                            </fieldset>
+                                        </form>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
+                                    <h2 class="md-title">You can delete your account</h2>
+                                    <div class="card-panel">
+                                        <div class="card-panel__in">
+                                            <div class="card-panel__col">
+                                                <dl>
+                                                    <dt>Select payment account</dt>
+                                                    <dd>Debit Card **** 7890</dd>
+                                                </dl>
+                                                <div class="payment">
+                                                    <div class="payment__item">
+                                                        <img src="img/src/visa.svg" alt="visa">
+                                                    </div>
+                                                    <div class="payment__item">
+                                                        <img src="img/src/mastercard.svg" alt="mastercard">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="btn btn_big-size btn__blue-color">Close my account</a>
+                                        </div>
                                     </div>
+                                    <span class="gl-text">You cannot delete your account when your subscription is active</span>
                                 </div>
-                            </div>
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
+                                <div id="tabs2" class="profile__item" data-tab-content="tabs1">
+                                    <h2 class="md-title">Current Plan</h2>
+                                    <div class="price-item price-item_changed">
+                                        <div class="price-item__col">
+                                            <div class="price-item__col-item">
+                                                <div class="price-item__top-panel">
+                                                    <h3 class="price-item__title">Basic</h3>
+                                                </div>
+                                                <span class="price-item__sub-title">10 downloads per day</span>
+                                                <div class="price-item__number">
+                                                    <strong>$20</strong>
+                                                    <i></i>
+                                                    <span>1 month</span>
+                                                </div>
+                                                <p class="price-item__text">For simple using for your projects</p>
+                                            </div>
+                                            <div class="price-item__col-item">
+                                                <ul class="price-item__list">
+                                                    <li>All sections for using</li>
+                                                    <li>10 downloads per day</li>
+                                                    <li>Priority Support</li>
+                                                </ul>
+                                                <div class="programs-panel">
+                                                    <span class="program-name">
+                                                        <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
+                                                        <span class="program-name__text">Figma</span>
+                                                    </span>
+                                                    <span class="program-name program-name_sketch">
+                                                        <img class="program-name__logo" src="img/src/sketch.svg" alt="Sketch">
+                                                        <span class="program-name__text">Sketch</span>
+                                                    </span>
+                                                    <span class="program-name program-name_adobe-photoshop">
+                                                        <img class="program-name__logo" src="img/src/adobe-photoshop.svg" alt="Photoshop">
+                                                        <span class="program-name__text">Photoshop</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="price-item__col-item">
+                                                <div class="price-item__btns">
+                                                    <a href="#" class="btn btn_big-size btn__blue-color">Upgrade Plan</a>
+                                                    <a href="#" class="btn btn_violet-color">Cancel Renewal</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price-item__info-panel">
+                                            <dl>
+                                                <dt>important information:</dt>
+                                                <dd>
+                                                    <ul>
+                                                        <li>Your next payment is <strong>$20</strong></li>
+                                                        <li>Your plan will be automatically renewed each month</li>
+                                                        <li>VAT and local taxes may apply</li>
+                                                    </ul>
+                                                </dd>
+                                            </dl>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="work">
-                                <div class="work__photo">
-                                    <a href="#">
-                                        <img src="img/src/work-img.jpg" alt="Hero Header for Web design">
-                                    </a>
-                                </div>
-                                <h3 class="work__title">
-                                    <a href="#">Hero Header for Web design</a>
-                                </h3>
-                                <span class="program-name">
-                                    <img class="program-name__logo" src="img/src/figma.svg" alt="Figma">
-                                    <span class="program-name__text">Figma</span>
-                                </span>
-                                <div class="work__bottom-panel">
-                                    <span class="work__price">$5</span>
-                                    <div class="work__right-col">
-                                        <span class="like">like</span>
-                                        <a href="#" class="btn btn_big-size btn__blue-color">Download</a>
+                                    <h2 class="md-title">Payment method</h2>
+                                    <div class="card-panel">
+                                        <div class="card-panel__in">
+                                            <div class="card-panel__col">
+                                                <dl>
+                                                    <dt>Select payment account</dt>
+                                                    <dd>Debit Card **** 7890</dd>
+                                                </dl>
+                                                <div class="payment">
+                                                    <div class="payment__item">
+                                                        <img src="img/src/visa.svg" alt="visa">
+                                                    </div>
+                                                    <div class="payment__item">
+                                                        <img src="img/src/mastercard.svg" alt="mastercard">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="btn btn_big-size btn__blue-color">Update card</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
